@@ -1,0 +1,19 @@
+Url for spring boot ------https://start.spring.io/starter.zip?name=SpringBootApp&groupId=com.capg&artifactId=SpringBootApp&version=0.0.1-SNAPSHOT&description=Demo+project+for+Spring+Boot&packageName=com.capg&type=maven-project&packaging=jar&javaVersion=1.8&language=java&bootVersion=2.1.8.RELEASE&dependencies=web
+
+//server.port= 9090  If u get any port issues, write this in application.properties file. or change in server.xml file
+//Add web spring while creating a project
+//run the project using spring boot app
+ctr+shift+f = Alignment of the prog
+//If we dont have sts and we wanted to create in eclipse, goto start.spring.io, create p[roject, download it and open in eclipse.
+//To use JSP(java+html- deploying project) we should add additional plugin as spring boot doesnt provide internally
+         1.<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+           <dependency>
+               <groupId>org.apache.tomcat.embed</groupId>
+               <artifactId>tomcat-embed-jasper</artifactId>
+               <version>9.0.24</version>
+              </dependency>
+
+
+		Add this to the pom.xml page i.e Maven Dependencies xml inside Dependencies.
+
+	2. https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper/9.0.24 //Check here and based on the tomcat version used in the Maven Dependencies jar files, consider that.
